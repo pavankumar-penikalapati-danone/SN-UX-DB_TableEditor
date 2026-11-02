@@ -1,0 +1,8 @@
+command: ['npm', 'run', 'start']
+
+env:
+  # Comma-separated list of approver (e.g. Claudia) email addresses.
+  # Anyone whose signed-in email is in this list can review and approve/reject
+  # Section 1 submissions. Update this with the real approver address(es).
+  - name: APPROVER_EMAILS
+    value: "pavankumar.penikalapati@external.danone.com,claudia@danone.com"
